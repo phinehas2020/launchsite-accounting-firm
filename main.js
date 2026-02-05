@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     revealItems.forEach((item, index) => {
-        item.style.transitionDelay = `${Math.min(index * 28, 210)}ms`;
+        item.style.transitionDelay = `${Math.min(index * 28, 150)}ms`;
         revealObserver.observe(item);
     });
 });
